@@ -4,12 +4,14 @@
 
 [bind.default]
 
-# term & menu
+# term & menu (incl drop-down term)
 "SUPER+Return" = "spawn,$term"
+"SUPER+grave" = "toggle_named_scratchpad,term-scratch,none,$term --class term-scratch"
 "SUPER+space" = "spawn,rofi -config ~/.config/mango/rofi/config.rasi -show drun"
 
 # applications
 "SUPER+c" = "spawn,$browser"
+"SUPER+Shift+c" = "spawn,$browser --private-window"
 "SUPER+e" = "spawn,$explorer"
 
 # kill & exit
