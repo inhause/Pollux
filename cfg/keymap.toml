@@ -27,10 +27,10 @@
 "ALT+s" = "focusdir,down"
 
 # window position swapping
-"ALT+Shift+a" = "exchange_client_left"
-"ALT+ShifT+d" = "exchange_client_right"
-"ALT+Shift+w" = "exchange_client_up"
-"ALT+Shift+s" = "exchange_client_down"
+"ALT+Shift+a" = "exchange_client,left"
+"ALT+ShifT+d" = "exchange_client,right"
+"ALT+Shift+w" = "exchange_client,up"
+"ALT+Shift+s" = "exchange_client,down"
 "ALT+q" = "scroller_stack,left" # for scroller layout
 "ALT+e" = "scroller_stack,right" # for scroller layout
 "ALT+Shift+q" = "scroller_stack,down" # for scroller layout
@@ -49,8 +49,8 @@
 "CTRL+ALT+Right" = "resizewin,+50,+0"
 
 # gaps
-"ALT+Shift+[" = "incgaps,-1"
-"ALT+Shift+]" = "incgaps,1"
+"ALT+Shift+code:219" = "incgaps,-1"
+"ALT+Shift+code:221" = "incgaps,1"
 "ALT+Shift+r" = "togglegaps"
 
 # window status manipulation

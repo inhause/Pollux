@@ -7,15 +7,15 @@
 auto_reload_config = 1
 
 # Look
-borderpx = 4
+border_px = 4
 border_radius = 10
 gap_inner_horizontal = 16
 gap_inner_vertical = 16
 gap_outer_vertical = 12
 gap_outer_vertical = 12
-focuscolor=0x80a0ffff
-bordercolor=0x080808ff
-urgentcolor=0xef9f76ff
+focus_color=0x80a0ffff
+border_color=0x080808ff
+urgent_color=0xef9f76ff
 
 # Effect
 blur = 0
@@ -32,7 +32,7 @@ shadow_only_floating = 1
 layer_shadows = 1
 shadows_size = 12
 shadows_blur = 18
-shadowscolor = 0x00000099
+shadows_color = 0x00000099
 animations = 1
 layer_animations = 1
 animation_type_open = slide
@@ -53,6 +53,6 @@ animation_curve_opacity_fade_in = [0.46, 1.0, 0.29, 1]
 
 # Load the rest of the config
 source = [
-    "./cfg/var.toml"
-    "./cfg/keymap.toml"
+    "./cfg/var.toml",
+    "./cfg/keymap.toml",
 ]
