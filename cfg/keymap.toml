@@ -25,6 +25,13 @@
 "ALT+d" = "focusdir,right"
 "ALT+w" = "focusdir,up"
 "ALT+s" = "focusdir,down"
+"ALT+i" = "minimized,"
+"ALT+Shift+i" = "restore_minimized"
+"ALT+Backslash" = "toggle_scratchpad"
+"SUPER+i" = "minimized,"
+"SUPER+Shift+i" = "restore_minimized"
+"Super+Backslash" = "toggle_scratchpad"
+
 
 # window position swapping
 "ALT+Shift+a" = "exchange_client,left"

@@ -4,6 +4,10 @@
 
 [global]
 
+# Generic
+sloppy_focus = 0
+allow_tearing = 2
+drag_tile_to_tile = 1
 auto_reload_config = 1
 
 # Look
@@ -55,4 +59,6 @@ animation_curve_opacity_fade_in = [0.46, 1.0, 0.29, 1]
 source = [
     "./cfg/var.toml",
     "./cfg/keymap.toml",
+    "./cfg/input.toml",
+    "./cfg/layout.toml"
 ]

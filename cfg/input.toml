@@ -1,0 +1,11 @@
+# input devices and whatnot
+
+[[rule.device_rule]]
+type = "trackpad"
+accel_speed = 0.25
+natural_scrolling = 1
+
+[[rule.device_rule]]
+type = "pointer"
+accel_speed = 0.2
+natural_scrolling = 0
