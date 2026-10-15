@@ -1,0 +1,5 @@
+[var]
+term = "foot"
+browser = "waterfox"
+monitor = "btop"
+explorer = "nautilus -w"

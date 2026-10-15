@@ -1,0 +1,134 @@
+# I use ALT and SUPER as my default Mod keys
+# I tend to use ALT for window-related things,
+# and SUPER for apps/shell/tag related things.
+
+[bind.default]
+
+# term & menu
+"SUPER+Return" = "spawn,$term"
+"SUPER+space" = "spawn,rofi -config ~/.config/mango/rofi/config.rasi -show drun"
+
+# applications
+"SUPER+c" = "spawn,$browser"
+"SUPER+e" = "spawn,$explorer"
+
+# kill & exit
+"SUPER+Shift+m" = "quit"
+"SUPER+q" = "killclient,"
+
+# window focus manipulation
+"SUPER+Tab" = "overcircle,next"
+"ALT+Tab" = "togglejump"
+"SUPER+Shift+n" = "focusstack,next"
+"SUPER+u" = "focuslast"
+"ALT+a" = "focusdir,left"
+"ALT+d" = "focusdir,right"
+"ALT+w" = "focusdir,up"
+"ALT+s" = "focusdir,down"
+
+# window position swapping
+"ALT+Shift+a" = "exchange_client_left"
+"ALT+ShifT+d" = "exchange_client_right"
+"ALT+Shift+w" = "exchange_client_up"
+"ALT+Shift+s" = "exchange_client_down"
+"ALT+q" = "scroller_stack,left" # for scroller layout
+"ALT+e" = "scroller_stack,right" # for scroller layout
+"ALT+Shift+q" = "scroller_stack,down" # for scroller layout
+"ALT+Shift+e" = "scroller_stack,up" # for scroller layout
+
+# movewin
+"Ctrl+Shift+Up" = "movewin,+0,-50"
+"Ctrl+Shift+Down" = "movewin,+0,+50"
+"Ctrl+Shift+Left" = "movewin,-50,+0"
+"Ctrl+Shift+Right" = "movewin,+50,+0"
+
+# resizewin
+"CTRL+ALT+Up" = "resizewin,+0,-50"
+"CTRL+ALT+Down" = "resizewin,+0,+50"
+"CTRL+ALT+Left" = "resizewin,-50,+0"
+"CTRL+ALT+Right" = "resizewin,+50,+0"
+
+# gaps
+"ALT+Shift+[" = "incgaps,-1"
+"ALT+Shift+]" = "incgaps,1"
+"ALT+Shift+r" = "togglegaps"
+
+# window status manipulation
+"ALT+Backspace" = "togglefloating"
+"ALT+Shift+g" = "toggleglobal"
+"ALT+f" = "togglemaximizescreen"
+"ALT+Shift+f" = "togglefullscreen"
+"ALT+Ctrl+f" = "togglefakefullscreen"
+
+# layout manipulation
+"SUPER+ALT+l" = "switch_layout"
+"SUPER+ALT+t" = "setlayout,tile"
+"SUPER+ALT+s" = "setlayout,scroller"
+"SUPER+ALT+m" = "setlayout,monocle"
+"SUPER+ALT+d" = "setlayout,dwindle"
+"SUPER+ALT+o" = "setlayout,overview"
+
+# layout specific options
+"ALT+Shift+Return" = "dwindle_toggle_split_direction" # dinwlde
+"ALT+n" = "incnmaster,-1" # tile
+"ALT+m" = "incnmaster,1" # tile
+"ALT+z" = "zoom" # tile
+
+# tags (workspaces)
+"SUPER+z" = "viewtoleft,0"
+"SUPER+Ctrl+z" = "viewtoleft_have_client,0"
+"SUPER+x" = "viewtoright,0"
+"SUPER+Ctrl+x" = "viewtoright_have_client,0"
+"SUPER+Shift+z" = "tagtoleft,0"
+"SUPER+Shift+x" = "tagtoright,0"
+"SUPER+1" = "view,1,0"
+"SUPER+2" = "view,2,0"
+"SUPER+3" = "view,3,0"
+"SUPER+4" = "view,4,0"
+"SUPER+5" = "view,5,0"
+"SUPER+6" = "view,6,0"
+"SUPER+7" = "view,7,0"
+"SUPER+8" = "view,8,0"
+"SUPER+9" = "view,9,0"
+"SUPER+Shift+1" = "tag,1,0"
+"SUPER+Shift+2" = "tag,2,0"
+"SUPER+Shift+3" = "tag,3,0"
+"SUPER+Shift+4" = "tag,4,0"
+"SUPER+Shift+5" = "tag,5,0"
+"SUPER+Shift+6" = "tag,6,0"
+"SUPER+Shift+7" = "tag,7,0"
+"SUPER+Shift+8" = "tag,8,0"
+"SUPER+Shift+9" = "tag,9,0"
+"SUPER+Ctrl+1" = "toggletag,1,0"
+"SUPER+Ctrl+2" = "toggletag,2,0"
+"SUPER+Ctrl+3" = "toggletag,3,0"
+"SUPER+Ctrl+4" = "toggletag,4,0"
+"SUPER+Ctrl+5" = "toggletag,5,0"
+"SUPER+Ctrl+6" = "toggletag,6,0"
+"SUPER+Ctrl+7" = "toggletag,7,0"
+"SUPER+Ctrl+8" = "toggletag,8,0"
+"SUPER+Ctrl+9" = "toggletag,9,0"
+
+
+[mousebind.default]
+
+# Mouse Button Bindings
+"SUPER+btn_left" = "moveresize,curmove"
+"alt+btn_middle" = "set_proportion,0.5"
+"SUPER+btn_right" = "moveresize,curresize"
+"SUPER+CTRL+btn_left" = "minimized"
+"SUPER+CTRL+btn_right" = "killclient"
+"SUPER+CTRL+btn_middle" = "togglefullscreen"
+"btn_middle" = "togglemaximizescreen,0"
+
+[gesturebind.default]
+
+# Gesturebind
+"none+left+3" = "focusdir,left"
+"none+right+3" = "focusdir,right"
+"none+up+3" = "focusdir,up"
+"none+down+3" = "focusdir,down"
+"none+right+4" = "viewprev_have_client"
+"none+left+4" = "viewnext_have_client"
+"none+up+4" = "enteroverview"
+"none+down+4" = "leaveoverview"
