@@ -4,14 +4,20 @@
 
 [bind.default]
 
+# Reload config
+"SUPER+Shift+P" = "reload_config"
+# Show app group bars
+"SUPER+f11" = "togglegroupbar"
+
 # term & menu (incl drop-down term)
 "SUPER+Return" = "spawn,$term"
+"SUPER+Shift+Return" = "spawn,$term"
 "SUPER+grave" = "toggle_named_scratchpad,term-scratch,none,$term --class term-scratch"
 "SUPER+space" = "spawn,rofi -config ~/.config/mango/rofi/config.rasi -show drun"
 
 # applications
 "SUPER+c" = "spawn,$browser"
-"SUPER+Shift+c" = "spawn,$browser --private-window"
+"SUPER+Shift+c" = "spawn,$browser --private-window" 
 "SUPER+e" = "spawn,$explorer"
 
 # kill & exit
@@ -76,6 +82,8 @@
 "SUPER+ALT+m" = "setlayout,monocle"
 "SUPER+ALT+d" = "setlayout,dwindle"
 "SUPER+ALT+o" = "setlayout,overview"
+"SUPER+ALT+f" = "setlayout,fair"
+"SUPER+ALT+c" = "setlayout,deck" # cards
 
 # layout specific options
 "ALT+Shift+Return" = "dwindle_toggle_split_direction" # dinwlde
@@ -128,7 +136,7 @@
 "SUPER+CTRL+btn_left" = "minimized"
 "SUPER+CTRL+btn_right" = "killclient"
 "SUPER+CTRL+btn_middle" = "togglefullscreen"
-"btn_middle" = "togglemaximizescreen,0"
+"Ctrl+btn_middle" = "togglemaximizescreen,0"
 
 [gesturebind.default]
 
