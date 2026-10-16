@@ -50,6 +50,7 @@
 "ALT+e" = "scroller_stack,right" # for scroller layout
 "ALT+Shift+q" = "scroller_stack,down" # for scroller layout
 "ALT+Shift+e" = "scroller_stack,up" # for scroller layout
+"ALT+v" = "switch_proportion_preset" # for scroller layout
 
 # movewin
 "Ctrl+Shift+Up" = "movewin,+0,-50"
@@ -84,6 +85,7 @@
 "SUPER+ALT+o" = "setlayout,overview"
 "SUPER+ALT+f" = "setlayout,fair"
 "SUPER+ALT+c" = "setlayout,deck" # cards
+"SUPER+ALT+g" = "setlayout,grid"
 
 # layout specific options
 "ALT+Shift+Return" = "dwindle_toggle_split_direction" # dinwlde
