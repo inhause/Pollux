@@ -39,8 +39,8 @@ shadows_blur = 18
 shadows_color = 0x00000099
 animations = 1
 layer_animations = 1
-animation_type_open = slide
-animation_type_close = slide
+animation_type_open = "slide"
+animation_type_close = "slide"
 animation_fade_in = 1
 animation_fade_out = 1
 animation_duration_open = 300
@@ -62,3 +62,5 @@ source = [
     "./cfg/input.toml",
     "./cfg/layout.toml"
 ]
+
+exec_once = ["~/.config/mango/cfg/autostart.sh"]
