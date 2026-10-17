@@ -12,11 +12,10 @@ auto_reload_config = 1
 
 # Look
 border_px = 4
-border_radius = 10
-gap_inner_horizontal = 16
-gap_inner_vertical = 16
-gap_outer_vertical = 12
-gap_outer_vertical = 12
+border_radius = 6
+gap_inner_horizontal = 8
+gap_inner_vertical = 8
+gap_outer_vertical = 8
 focus_color=0x80a0ffff
 border_color=0x080808ff
 urgent_color=0xef9f76ff
@@ -60,7 +59,8 @@ source = [
     "./cfg/var.toml",
     "./cfg/keymap.toml",
     "./cfg/input.toml",
-    "./cfg/layout.toml"
+    "./cfg/layout.toml",
+    "./cfg/rules.toml",
 ]
 
 exec_once = ["~/.config/mango/cfg/autostart.sh"]

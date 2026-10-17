@@ -1,0 +1,9 @@
+# Window Rules
+
+[[rule.window_rule]]
+is_floating = 1
+title = "float-term"
+
+[[rule.window_rule]]
+is_floating = 1
+title = "Noctalia"

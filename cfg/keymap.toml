@@ -11,17 +11,26 @@
 
 # term & menu (incl drop-down term)
 "SUPER+Return" = "spawn,$term"
-"SUPER+Shift+Return" = "spawn,$term"
+"SUPER+Shift+Return" = "spawn,$term -T float-term"
 "SUPER+grave" = "toggle_named_scratchpad,term-scratch,none,$term --class term-scratch"
-"SUPER+space" = "spawn,rofi -config ~/.config/mango/rofi/config.rasi -show drun"
+# uncomment 17 an comment 26 to swap noctalia launcher for rofi
+"SUPER+space" = "spawn,rofi -theme ~/.config/mango/rofi/styles.rasi -show drun"
 
 # applications
 "SUPER+c" = "spawn,$browser"
 "SUPER+Shift+c" = "spawn,$browser --private-window" 
 "SUPER+e" = "spawn,$explorer"
 
+# Noctalia-specific
+"SUPER+i" = "spawn,noctalia msg settings-toggle -T settings"
+# "SUPER+Space" = "spawn,noctalia msg panel-toggle launcher"
+"SUPER+Insert" = "spawn,noctalia msg panel-toggle wallpaper"
+"SUPER+ALT+Insert" = "spawn,noctalia msg panel-toggle noctalia/wallhaven:browser"
+"SUPER+Home" = "spawn,noctalia msg panel-toggle control-center"
+"SUPER+Shift+m" = "spawn,noctalia msg panel-toggle session"
+
 # kill & exit
-"SUPER+Shift+m" = "quit"
+"SUPER+CTRL+m" = "quit"
 "SUPER+q" = "killclient,"
 
 # window focus manipulation
@@ -33,11 +42,9 @@
 "ALT+d" = "focusdir,right"
 "ALT+w" = "focusdir,up"
 "ALT+s" = "focusdir,down"
-"ALT+i" = "minimized,"
-"ALT+Shift+i" = "restore_minimized"
+"ALT+Return" = "minimized,"
+"ALT+Shift+Return" = "restore_minimized"
 "ALT+Backslash" = "toggle_scratchpad"
-"SUPER+i" = "minimized,"
-"SUPER+Shift+i" = "restore_minimized"
 "Super+Backslash" = "toggle_scratchpad"
 
 
@@ -88,7 +95,7 @@
 "SUPER+ALT+g" = "setlayout,grid"
 
 # layout specific options
-"ALT+Shift+Return" = "dwindle_toggle_split_direction" # dinwlde
+"SUPER+Ctrl+Return" = "dwindle_toggle_split_direction" # dinwlde
 "ALT+n" = "incnmaster,-1" # tile
 "ALT+m" = "incnmaster,1" # tile
 "ALT+z" = "zoom" # tile
