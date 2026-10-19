@@ -7,11 +7,5 @@ set +e
 # systemctl --user restart xdg-desktop-portal &
 # /usr/lib/xdg-desktop-portal-wlr >/dev/null 2>&1 &
 
-waybar -c ~/.config/mango/waybar/config.jsonc
+noctalia &
 
-# wallpaper
-awww-daemon
-awww img $HOME/.config/mango/wallpaper/wall.jpg --resize crop
-
-# notifs
-dunst -config ~/.config/mango/dunst/dunstrc

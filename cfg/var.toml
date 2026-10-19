@@ -1,5 +1,5 @@
 [var]
-term = "foot"
+term = "foot -c ~/.config/mango/foot/foot.ini"
 browser = "waterfox"
 monitor = "btop"
 explorer = "nautilus -w"
