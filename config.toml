@@ -63,4 +63,5 @@ source = [
     "./cfg/rules.toml",
 ]
 
+# right now mostly for noctalia start, later purpose tho
 exec_once = ["~/.config/mango/cfg/autostart.sh"]
