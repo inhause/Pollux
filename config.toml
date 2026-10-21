@@ -24,4 +24,6 @@ source = [
     "./cfg/rules.toml",
 ]
 
+# Autostart script for anything that needs it
+# (Primarily Noctalia, in our use case)
 exec_once = ["~/.config/mango/cfg/autostart.sh"]
