@@ -10,5 +10,10 @@ alias ld="eza -lD" # lists only dirs
 alias lh="eza -dl .* --group-directories-first" # lists only hidden files
 alias lt="eza -all --sort=modified" # sort by last mofified
 
+# shorter fetch cause yes i am that lazy
+alias ff="fastfetch"
+alias cf="clear && fastfetch"
+alias fetch="fastfetch"
+
 starship init fish | source
 
