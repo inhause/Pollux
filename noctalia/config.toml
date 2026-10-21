@@ -1,0 +1,336 @@
+config_version = 15
+
+[bar]
+order = [ "default", "Edward" ]
+
+    [bar.Edward]
+    background_opacity = 0.669999985024333
+    center = [ "active_window" ]
+    end = [
+        "group:g1",
+        "spacer_5",
+        "tray",
+        "network",
+        "bluetooth",
+        "spacer_7",
+        "volume",
+        "spacer_4",
+        "battery",
+        "spacer_3",
+        "control-center",
+        "spacer_2"
+    ]
+    font_family = "JetBrainsMono NF"
+    margin_ends = 0
+    radius = 0
+    radius_bottom_left = 0
+    radius_bottom_right = 0
+    radius_top_left = 0
+    radius_top_right = 0
+    shadow = false
+    start = [ "date", "clock", "spacer_1", "workspaces" ]
+    thickness = 22
+
+        [[bar.Edward.capsule_group]]
+        accordion = false
+        accordion_direction = "end"
+        border_width = 1.0
+        enabled = true
+        fill = "surface_variant"
+        id = "g1"
+        members = [ "media", "spacer_6", "Separator" ]
+        opacity = 1.0
+        padding = 6.0
+
+    [bar.default]
+    center = [ "date", "Separator", "clock", "ClockNotSpacer", "notifications" ]
+    concave_edge_corners = false
+    enabled = false
+    end = [ "tray", "clipboard", "network", "bluetooth", "volume", "brightness", "battery" ]
+    margin_edge = 5
+    margin_ends = 10
+    radius = 8
+    scale = 1.0500000081956387
+    thickness = 40
+
+[control_center]
+width = 890
+
+[desktop_widgets]
+schema_version = 2
+widget_order = [ "desktop-widget-0000000000000001", "desktop-widget-0000000000000002" ]
+
+    [desktop_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [desktop_widgets.widget.desktop-widget-0000000000000001]
+    box_height = 160.0
+    box_width = 320.0
+    cx = 176.0
+    cy = 476.0
+    output = "eDP-1"
+    placement_height = 1080.0
+    placement_width = 1920.0
+    rotation = 0.0
+    type = "sysmon"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000001.settings]
+        background_opacity = 0.68000000000000005
+        background_padding = 8
+        display = "graph"
+        stat = "cpu_usage"
+        stat2 = "ram_pct"
+
+    [desktop_widgets.widget.desktop-widget-0000000000000002]
+    box_height = 336.0
+    box_width = 320.0
+    cx = 176.0
+    cy = 212.0
+    output = "eDP-1"
+    placement_height = 1080.0
+    placement_width = 1920.0
+    rotation = 0.0
+    type = "calendar"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000002.settings]
+        show_events = false
+
+[dock]
+background_opacity = 0.99999997764825821
+concave_edge_corners = false
+inactive_opacity = 0.99999997764825821
+margin_edge = 8
+radius = 48
+smart_auto_hide = true
+
+[location]
+auto_locate = true
+
+[lockscreen_widgets]
+enabled = false
+schema_version = 2
+widget_order = [ "lockscreen-login-box@eDP-1", "lockscreen-login-box@DP-2", "lockscreen-login-box@DP-1" ]
+
+    [lockscreen_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@DP-1"]
+    box_height = 196.0
+    box_width = 720.0
+    cx = 1280.0
+    cy = 1321.0
+    output = "DP-1"
+    placement_height = 0.0
+    placement_width = 0.0
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@DP-1".settings]
+        background_color = "surface_variant"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@DP-2"]
+    box_height = 196.0
+    box_width = 720.0
+    cx = 1280.0
+    cy = 1321.0
+    output = "DP-2"
+    placement_height = 0.0
+    placement_width = 0.0
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@DP-2".settings]
+        background_color = "surface_variant"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@eDP-1"]
+    box_height = 196.0
+    box_width = 810.0
+    cx = 960.0
+    cy = 898.0
+    output = "eDP-1"
+    placement_height = 1080.0
+    placement_width = 1920.0
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@eDP-1".settings]
+        background_color = "surface_variant"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
+
+[notification]
+background_opacity = 0.669999985024333
+
+[osd]
+background_opacity = 0.669999985024333
+
+[plugins]
+enabled = [ "noctalia/wallhaven" ]
+
+[shell.launcher]
+app_grid = true
+
+[shell.panel]
+control_center_placement = "floating"
+control_center_position = "top_right"
+launcher_position = "top_left"
+open_near_click_control_center = true
+transparency_mode = "soft"
+
+[theme]
+builtin = "Gruvbox"
+community_palette = "Oxocarbon"
+source = "wallpaper"
+wallpaper_scheme = "m3-fruit-salad"
+
+[wallpaper]
+directory = "~/Pictures/Wallpapers"
+
+    [wallpaper.default]
+    path = "/home/hause/Pictures/Wallpapers/wallhaven-n65epw.png"
+
+    [wallpaper.last]
+    path = "/home/hause/Pictures/Wallpapers/wallhaven-n65epw.png"
+
+    [wallpaper.monitors.eDP-1]
+    path = "/home/hause/Pictures/Wallpapers/wallhaven-n65epw.png"
+
+    [[wallpaper.favorite]]
+    path = "/home/hause/Pictures/Wallpapers/wall.jpg"
+
+[weather]
+unit = "imperial"
+
+[widget.ClockNotSpacer]
+scale = 0.5
+type = "spacer"
+
+[widget.Separator]
+anchor = true
+enabled = false
+scale = 0.75
+text = "|"
+type = "text"
+
+[widget.active_window]
+display = "text_only"
+max_length = 315
+scale = 0.90000000000000002
+title_scroll = "on_hover"
+
+    [widget.active_window.actions]
+    left = "window-switcher"
+    right = "annotate"
+
+[widget.battery]
+scale = 0.80000000000000004
+
+[widget.clock]
+anchor = true
+scale = 0.80000000000000004
+
+[widget.control-center]
+glyph = "adjustments-filled"
+
+[widget.date]
+enabled = false
+format = "{:%a %d}"
+scale = 1.05
+
+[widget.launcher]
+custom_image = "/usr/share/icons/hicolor/scalable/apps/org.cachyos.scx-manager.png"
+
+[widget.media]
+art_size = 14
+capsule = true
+font_family = "JetBrainsMono NF"
+font_scale = 0.90000000000000002
+hide_when_no_media = true
+rotate_album_art = true
+title_scroll = "always"
+
+[widget.network]
+show_label = false
+
+[widget.spacer_1]
+scale = 1.25
+type = "spacer"
+
+[widget.spacer_2]
+font_scale = 0.5
+length = 3
+type = "spacer"
+
+[widget.spacer_3]
+scale = 0.65000000000000002
+type = "spacer"
+
+[widget.spacer_4]
+scale = 0.5
+type = "spacer"
+
+[widget.spacer_5]
+length = 15
+type = "spacer"
+
+[widget.spacer_6]
+length = 8
+type = "spacer"
+
+[widget.spacer_7]
+length = 7
+type = "spacer"
+
+[widget.tray]
+drawer = true
+
+[widget.volume]
+scale = 0.80000000000000004
+
+[widget.workspaces]
+active_pill_size = 1.25
+focused_output_only = true
+hide_when_empty = true
+inactive_pill_size = 1.25
+occupied_color = "on_tertiary"
