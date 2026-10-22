@@ -1,3 +1,8 @@
+# ----- Varibles ----- #
+# Set your application names
+# and any other variables here.
+# Used in places like `cfg/keymap.toml`
+
 [var]
 term = "foot -c ~/.config/mango/foot/foot.ini"
 browser = "waterfox"

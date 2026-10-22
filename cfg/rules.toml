@@ -2,6 +2,8 @@
 
 [[rule.window_rule]]
 is_floating = 1
+width = 800
+height = 500
 title = "float-term"
 
 [[rule.window_rule]]

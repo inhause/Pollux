@@ -19,6 +19,9 @@
 # applications
 "SUPER+c" = "spawn,$browser"
 "SUPER+Shift+c" = "spawn,$browser --private-window" 
+"SUPER+d" = "toggle_named_scratchpad,disc,none,equicord -c disc"
+"SUPER+m" = "spawn,spotify"
+"SUPER+n" = "spawn,nvim"
 "SUPER+e" = "spawn,$explorer"
 
 # Noctalia-specific
@@ -54,6 +57,7 @@
 "ALT+Shift+Return" = "restore_minimized"
 "ALT+Backslash" = "toggle_scratchpad"
 "Super+Backslash" = "toggle_scratchpad"
+"SUPER+f4" = "toggle_scratchpad"
 
 
 # window position swapping
@@ -68,10 +72,10 @@
 "ALT+v" = "switch_proportion_preset" # for scroller layout
 
 # movewin
-"Ctrl+Shift+Up" = "movewin,+0,-50"
-"Ctrl+Shift+Down" = "movewin,+0,+50"
-"Ctrl+Shift+Left" = "movewin,-50,+0"
-"Ctrl+Shift+Right" = "movewin,+50,+0"
+"SUPER+Shift+Up" = "movewin,+0,-50"
+"SUPER+Shift+Down" = "movewin,+0,+50"
+"SUPER+Shift+Left" = "movewin,-50,+0"
+"SUPER+Shift+Right" = "movewin,+50,+0"
 
 # resizewin
 "CTRL+ALT+Up" = "resizewin,+0,-50"

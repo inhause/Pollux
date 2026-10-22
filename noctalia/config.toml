@@ -58,30 +58,12 @@ width = 890
 
 [desktop_widgets]
 schema_version = 2
-widget_order = [ "desktop-widget-0000000000000001", "desktop-widget-0000000000000002" ]
+widget_order = [ "desktop-widget-0000000000000002" ]
 
     [desktop_widgets.grid]
     cell_size = 16
     major_interval = 4
     visible = true
-
-    [desktop_widgets.widget.desktop-widget-0000000000000001]
-    box_height = 160.0
-    box_width = 320.0
-    cx = 176.0
-    cy = 476.0
-    output = "eDP-1"
-    placement_height = 1080.0
-    placement_width = 1920.0
-    rotation = 0.0
-    type = "sysmon"
-
-        [desktop_widgets.widget.desktop-widget-0000000000000001.settings]
-        background_opacity = 0.68000000000000005
-        background_padding = 8
-        display = "graph"
-        stat = "cpu_usage"
-        stat2 = "ram_pct"
 
     [desktop_widgets.widget.desktop-widget-0000000000000002]
     box_height = 336.0

@@ -5,7 +5,7 @@ scroller_focus_center = 0
 scroller_prefer_overspread = 1
 edge_scroller_pointer_focus = 1
 scroller_default_proportion_single = 2.0
-scroller_proportion_preset = 0.33, 0.5, 0.66
+scroller_proportion_preset = 0.33, 0.5, 1.0, 0.66
 
 [[rule.tag_rule]]
 id = "*"

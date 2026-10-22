@@ -13,3 +13,4 @@
 - dunst (notifs)
 - fish (shell)
 - noctalia (shell)
+- rofi (launcher preferred over noctalia)

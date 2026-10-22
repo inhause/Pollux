@@ -15,5 +15,8 @@ alias ff="fastfetch"
 alias cf="clear && fastfetch"
 alias fetch="fastfetch"
 
+# same for nvim cause again yes i am that lazy
+alias n="nvim"
+
 starship init fish | source
 
