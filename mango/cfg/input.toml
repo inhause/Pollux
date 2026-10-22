@@ -1,4 +1,5 @@
-# input devices and whatnot
+# ----- Input Device Configuration -----
+# Use this to set up mouse/trackpad input
 
 [[rule.device_rule]]
 type = "trackpad"

@@ -1,6 +1,8 @@
+# ----- Keymap Configuration ----
+
 # I use ALT and SUPER as my default Mod keys
-# I tend to use ALT for window-related things,
-# and SUPER for apps/shell/tag related things.
+# I tend to use ALT for window-related tasks,
+# and SUPER for apps/shell/tag related tasks.
 
 [bind.default]
 
@@ -9,12 +11,14 @@
 # Show app group bars
 "SUPER+f11" = "togglegroupbar"
 
-# term & menu (incl drop-down term)
+# term (incl drop-down term)
 "SUPER+Return" = "spawn,$term"
 "SUPER+Shift+Return" = "spawn,$term -T float-term"
 "SUPER+grave" = "toggle_named_scratchpad,term-scratch,none,$term --class term-scratch"
-# uncomment 17 an comment 26 to swap noctalia launcher for rofi
-"SUPER+space" = "spawn,rofi -theme ~/.config/mango/rofi/styles.rasi -show drun"
+
+# comment/uncomment as needed to swap between Rofi and Noctalia's launcher (I just prefer Rofi)
+"SUPER+space" = "spawn,rofi -theme ~/.pollux/rofi/styles.rasi -show drun"
+# "SUPER+Space" = "spawn,noctalia msg panel-toggle launcher"
 
 # applications
 "SUPER+c" = "spawn,$browser"
@@ -27,7 +31,6 @@
 # Noctalia-specific
 "SUPER+i" = "spawn,noctalia msg settings-toggle -T settings"
 "SUPER+l" = "spawn, noctalia msg session lock"
-# "SUPER+Space" = "spawn,noctalia msg panel-toggle launcher"
 "SUPER+Insert" = "spawn,noctalia msg panel-toggle wallpaper"
 "SUPER+ALT+Insert" = "spawn,noctalia msg panel-toggle noctalia/wallhaven:browser"
 "SUPER+Home" = "spawn,noctalia msg panel-toggle control-center"

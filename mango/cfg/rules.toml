@@ -1,4 +1,6 @@
-# Window Rules
+# ----- Window Rule Configuration -----
+# Use this to configure window rules for 
+# specific applications. 
 
 [[rule.window_rule]]
 is_floating = 1

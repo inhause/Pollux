@@ -1,3 +1,9 @@
+# ----- Layout Configuration -----
+# This is for setting up layout rules;
+# things like scroller settings and the like.
+# see https://mangowm.github.io/docs/window-management/layouts
+# for details
+
 [global]
 scroller_structs = 5
 scroller_default_proportion = 0.5

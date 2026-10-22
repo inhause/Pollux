@@ -4,7 +4,8 @@
 # Used in places like `cfg/keymap.toml`
 
 [var]
-term = "foot -c ~/.config/mango/foot/foot.ini"
+term = "foot -c ~/.pollux/foot/foot.ini"
 browser = "waterfox"
 monitor = "btop"
 explorer = "nautilus -w"
+pollux = "~/.pollux"

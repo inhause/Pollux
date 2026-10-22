@@ -1,6 +1,6 @@
 # ----- Pollux Mango ------- #
-# This config should live at #
-# ---- ~/.config/mango ----- #
+# This config should be symlinked
+#    to `~/.config/mango`
 
 # The config should reload automatically
 # when changes are made. If not, 
@@ -26,4 +26,4 @@ source = [
 
 # Autostart script for anything that needs it
 # (Primarily Noctalia, in our use case)
-exec_once = ["~/.config/mango/cfg/autostart.sh"]
+exec_once = ["$pollux/mango/cfg/autostart.sh"]
