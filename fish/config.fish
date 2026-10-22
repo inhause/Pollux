@@ -1,3 +1,9 @@
+# ----- Pollux Fish Config -----
+# Overall a stupidly simple config,
+# mostly consisting of aliases I use
+# because I'm lazy. The only genuinely valuable
+# thing in here is replacing default `ls` with [eza](https://github.com/eza-community/eza)
+
 # disables welcome message
 set fish_greeting
 
