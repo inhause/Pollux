@@ -5,7 +5,7 @@
 
 [var]
 term = "foot -c ~/.pollux/foot/foot.ini"
-browser = "waterfox"
+browser = "waterfox,"
 monitor = "btop"
 explorer = "nautilus -w"
 pollux = "~/.pollux"
