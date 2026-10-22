@@ -7,3 +7,21 @@
     <img src="https://img.shields.io/badge/zsh%20-%20SHELL?style=for-the-badge&label=SHELL&labelColor=%230dac09&color=%23c5c9c5"/>
     <br>
 </p>
+
+## Overview
+> These are my personal dotfiles for MangoWM. The dots are Arch-based, and aim for a minimalist style, with bits like my top bar being made to resemble that of [Alphonso's](https://github.com/Harman1307/Alphonso). Originally I was planning on doing a full waybar/rofi/etc. stack, but I eventually decided to stick with Noctalia for frankly nothing but convenience. Most GUI related bits are managed directly by Noctalia. The shell is Fish, with a Starship prompt; I use Foot for my terminal. I'd highly recommend a Nerd Font to make this look good - default is JetBrains Mono Nerd Font.
+
+![Screenshot](screenshot.png)
+
+## Dependencies
+> All dependencies are available through Pacman or Yay.
+- mango
+- noctalia
+- foot
+- fish
+- rofi
+- fastfetch
+- ttf-jetbrains-mono-nerd
+- waterfox
+- nautilus
+- equicord
