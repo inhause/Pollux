@@ -8,5 +8,5 @@ natural_scrolling = 1
 
 [[rule.device_rule]]
 type = "pointer"
-accel_speed = 0.2
+accel_speed = 0.1
 natural_scrolling = 0
