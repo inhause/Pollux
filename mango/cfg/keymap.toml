@@ -23,7 +23,7 @@
 # applications
 "SUPER+c" = "spawn,$browser"
 "SUPER+Shift+c" = "spawn,$browser --private-window" 
-"SUPER+d" = "toggle_named_scratchpad,disc,none,equicord -c disc"
+"SUPER+d" = "toggle_named_scratchpad,discord,none,equicord -c discord"
 "SUPER+m" = "spawn,spotify"
 "SUPER+n" = "spawn,nvim"
 "SUPER+e" = "spawn,$explorer"
