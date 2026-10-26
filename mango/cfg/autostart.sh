@@ -4,4 +4,3 @@
 # just to start Noctalia
 set +e
 noctalia &
-
