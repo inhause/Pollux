@@ -6,6 +6,8 @@
 [var]
 term = "foot -c ~/.pollux/foot/foot.ini"
 browser = "waterfox,"
+incog = "waterfox --private-window"
 monitor = "btop"
 explorer = "nautilus -w"
 pollux = "~/.pollux"
+btop = "foot -e btop"
