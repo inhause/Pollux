@@ -34,6 +34,7 @@
 "SUPER+l" = "spawn, noctalia msg session lock"
 "SUPER+Insert" = "spawn,noctalia msg panel-toggle wallpaper"
 "SUPER+ALT+Insert" = "spawn,noctalia msg panel-toggle noctalia/wallhaven:browser"
+"SUPER+Shift+w" = "spawn,noctalia msg panel-toggle wallpaper"
 "SUPER+Home" = "spawn,noctalia msg panel-toggle control-center"
 "SUPER+Shift+m" = "spawn,noctalia msg panel-toggle session"
 "XF86AudioRaiseVolume" = "spawn,noctalia msg volume-up"
